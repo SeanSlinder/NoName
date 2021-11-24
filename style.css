@@ -483,3 +483,13 @@ h3 {
 a {
   text-decoration: none;
 }
+
+.success {
+  background: rgb(181, 235, 181);
+  color: rgb(62, 99, 6);
+  padding: 6px 12px;
+  margin-top: 18px;
+  font-size: 13px;
+  transition: 0.5s;
+  cursor: pointer;
+}

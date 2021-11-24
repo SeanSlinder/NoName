@@ -37,4 +37,7 @@ sendEmail.addEventListener('submit', (event) => {
   // xhr.send(new Int8Array());
   // xhr.send({ form: 'data' });
   xhr.send(JSON.stringify(body))
+
+  const success = document.querySelector('.success')
+  success.style.display = 'block'
 })
